@@ -1,5 +1,6 @@
-# electron-react
-base project for react applications using electron configured with typescript.
+# YouTube Parties
+A project for organizing and creating synchronous YouTube Parties. Inspiration from COVID-19.
+This project base is inherited from [electron-react](https://github.com/plixxer/electron-react).
 
 Install dependencies:
 ```console
