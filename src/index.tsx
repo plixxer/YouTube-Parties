@@ -1,9 +1,10 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { Hello } from "./components/Hello";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import { Layout } from "./components/Layout";
 
 ReactDOM.render(
-    <Hello compiler="TypeScript" framework="React" />,
+    <Layout />,
     document.getElementById("root")
 );

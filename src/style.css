@@ -1,0 +1,10 @@
+.vertical-center{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    padding-bottom: 56.2%;
+    margin-top: -28.1%;
+    height: 0;
+    overflow: hidden;
+}
