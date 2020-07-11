@@ -1,6 +1,6 @@
 import * as React from "react";
 import { YoutubeVideo } from "./YoutubeVideo";
-import { SideBarRibbon } from "./SideBarRibbon";
+import { SideBar } from "./SideBar";
 
 export interface LayoutProps { }
 
@@ -41,7 +41,7 @@ export class Layout extends React.Component<LayoutProps, {}> {
                     <YoutubeVideo src="-nu5g3AiO4U" verticalCenter={this.state.sideBarOpen}/>
                 </div>
                 <div ref={(el=> this.sideBarContainer = el)}>
-                    <SideBarRibbon isSignedIn={false}/>
+                    <SideBar/>
                 </div>
             </div>
         </div>
